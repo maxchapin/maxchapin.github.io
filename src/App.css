@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* Global Styles */
+body {
+  font-family: 'Roboto','Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(148, 225, 255);
+  width: 100%;
+  height: 45px;
+}
+
+
+
+.navbar .aboutbutton{
+  margin-left: 20px;
+  
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.navbar .buy-now {
+  background-color: #4CAF50;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+/* Intro Section */
+.intro {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #E9E9E9;
+  padding: 50px;
+  position:relative;
+  top: 65px;
+}
+
+.intro .introText{
+  width: 30%;
+  text-align: left;
+  margin-left: 15%;
+}
+
+.intro h2{
+  font-size: 32px;
+  
+}
+
+.intro p{
+  font-size: 32px;
+  margin-bottom: 20px;
+  
+}
+
+.intro .introPic{
+  height: 18%;
+  width: 18%; 
+  margin-right: 15%;
+  
+}
+
+/* Product Display */
+.product-display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  margin-top: 65px;
+  padding: 50px;
+}
+
+.product-display .product {
+  width: calc(30%); /* considering 20px gap */
+  background-color: #E9E9E9;
+  border-radius: 20%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.product-display .product img{
+  width: 50%;
+  height: 50%;
+  margin-top: 10%;
+}
+
+/* Description */
+.description {
+  padding: 50px 0;
+  text-align: center;
+  font-size: 24pt;
+  padding: 0 10% 0 10%;
+}
+
+/* Meet Max Section */
+.meet-max {
+  background-color: #E9E9E9;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.meet-max button{
+  background-color: #4CAF50;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 24px;
+}
+
+.about {
+  text-align: center;
+  padding: 0 10% 0 10%;
+}
+
+/* Responsive for mobile devices */
+@media (max-width: 768px) {
+  .product-display {
+      flex-direction: column;
+  }
+
+  .product-display .product {
+      width: 100%;
+      margin-bottom: 20px;
+      border-radius: 5px;;
+  }
+}
+
