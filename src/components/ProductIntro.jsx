@@ -5,7 +5,7 @@ function ProductIntro() {
     return (
         <div className="intro">
             <div className='introText'>
-                <h2>Introducing CaseCaddy.</h2>
+                <h2>Introducing EpiQ Case.</h2>
                 <p>The product built to suit your lifestyle {"\n"} 
                 and your allergies.</p>
             </div>
