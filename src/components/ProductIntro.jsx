@@ -1,5 +1,6 @@
 import React from 'react';
-import introImage from '../images/productPic.png';
+
+import ImageCycler from './Slideshow';
 
 function ProductIntro() {
     return (
@@ -9,8 +10,9 @@ function ProductIntro() {
                 <p>The product built to suit your lifestyle {"\n"} 
                 and your allergies.</p>
             </div>
-            
-            <img className="introPic" title="Product Image" src={introImage}></img>
+            <ImageCycler/>
+            {/*<img className="introPic" title="Product Image" src={introImage}></img>*/}
+
         </div>
     );
 }
