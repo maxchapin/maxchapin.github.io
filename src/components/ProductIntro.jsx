@@ -1,16 +1,18 @@
 import React from 'react';
-import introImage from '../images/productPic.png';
+
+import ImageCycler from './Slideshow';
 
 function ProductIntro() {
     return (
         <div className="intro">
             <div className='introText'>
-                <h2>Introducing EpiQ Case.</h2>
+                <p>Introducing</p><h1>EpiQCase</h1>
                 <p>The product built to suit your lifestyle {"\n"} 
                 and your allergies.</p>
             </div>
-            
-            <img className="introPic" title="Product Image" src={introImage}></img>
+            {/*<ImageCycler/> */}
+            {/*<img className="introPic" title="Product Image" src={introImage}></img>*/}
+
         </div>
     );
 }
