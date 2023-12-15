@@ -190,16 +190,29 @@ body {
 
 .buyNowPage .buySection{
   width: 30%;
-  height: 90vh;
+  
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   align-items: stretch;
 }
 
+.buyNowPage .buySection h1{
+  margin: 0;
+}
+
+.buyNowPage .buySection .productDescription{
+  height: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .buyNowPage .buySection img{
   width: 50%;
   margin-left: 25%;
+  margin-bottom: 10%;
 }
 
 /* Responsive for mobile devices */
