@@ -7,7 +7,7 @@ function MeetMax() {
             <Link to='./About'>
                 <button >Meet Max</button>
             </Link>
-            <p>AUVI-Q® and AUVI-q® are registered trademarks of kaleo, Inc. Other referenced trademarks are owned by their respective third-party owners.</p>
+            
         </div>
     );
 }
