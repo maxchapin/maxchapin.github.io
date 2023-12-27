@@ -24,6 +24,10 @@ function Footer() {
             <p>Copyright 2023 EpiQCase</p>
             <p>AUVI-Q® and AUVI-q® are registered trademarks of kaleo, Inc. Other referenced trademarks are owned by their respective third-party owners.</p>
     
+            <Link to='/PrivacyPolicy' >
+                <Button >Privacy Policy</Button>
+            </Link>
+
         </div>
     );
 

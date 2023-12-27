@@ -10,6 +10,7 @@ import Home from './pages/Home'; // Assuming you have a Home component
 import BuyNow from './pages/BuyNow';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import PrivacyPolicy from './components/PrivacyPolicy';
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
               <Route path="/Home" Component={Home} />
               <Route path="/About" Component={About} />
               <Route path="/Purchase" Component={BuyNow} />
+              <Route path="/PrivacyPolicy" Component={PrivacyPolicy} />
               {/* Add more routes if you have other pages */}
           </Routes>
           <Footer></Footer>

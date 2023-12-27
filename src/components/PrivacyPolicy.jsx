@@ -4,7 +4,7 @@ function PrivacyPolicy() {
     return(
         <div>
                 
-            <div>
+            <div className="PPolicy">
 
                 <h1>Privacy Policy for <b>EpiQCase</b></h1>
 
