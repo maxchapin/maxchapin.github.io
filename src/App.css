@@ -201,9 +201,7 @@ body {
 }
 
 .singleItems .buySection .productDescription{
-  height: 40%;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
 }
