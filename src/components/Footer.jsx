@@ -9,17 +9,21 @@ function Footer() {
 
             <h1 className="footerLogo">EpiQCase</h1>
 
-            <Link to='./About'>
-                <Button className='footerButton' >About</Button>
-             </Link>
+            <div className="footerButtons">
+                <Link to='./About'>
+                    <Button className='footerButton' >About</Button>
+                </Link>
 
-            <Link to='/Home'>
-                <Button className='footerButton'>Home</Button>
-             </Link>
+                <Link to='/Home'>
+                    <Button className='footerButton'>Home</Button>
+                </Link>
 
-            <Link to='/Purchase' >
-                <Button className='footerButton'>Buy Now</Button>
-            </Link>
+                <Link to='/Purchase' >
+                    <Button className='footerButton'>Buy Now</Button>
+                </Link>
+
+            </div>
+            
 
             <p>Copyright 2023 EpiQCase</p>
             <p>AUVI-Q® and AUVI-q® are registered trademarks of kaleo, Inc. Other referenced trademarks are owned by their respective third-party owners.</p>

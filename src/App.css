@@ -162,7 +162,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  height: 100vh;
   padding: 0 10% 0 10%;
 }
 
@@ -224,7 +223,6 @@ body {
 
 .footer{
   text-align: center;
-  height: 275px;
   width: 100%;
   /*background-color: #80d0ff;*/
   /*background-image: linear-gradient(160deg, #80d0ff 0%, #80D0C7 33%, #a5f9ff 66%, #ffffff 100%);*/
@@ -233,13 +231,21 @@ body {
 
 .footer .footerLogo{
   margin: 0;
-  padding: 10% 0 1% 0;
+  padding: 0% 0 2% 0;
+}
+
+.footer .footerButtons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly ;
+  
 }
 
 .footer .footerButton{
   font-size: 24px;
   padding: 0 10% 0 10%;
   text-decoration: none;
+  width: 200px;
 }
 
 .footer p{
