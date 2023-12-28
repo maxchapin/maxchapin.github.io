@@ -20,8 +20,10 @@ function BuyNow(){
             </p>
           </div>
           
-
-          <img src={stockimage2}></img>
+          <div className='imgSection'>
+            <img src={stockimage2}></img>
+          </div>
+          
 
           <ClipBuyButton></ClipBuyButton>
 
@@ -37,7 +39,9 @@ function BuyNow(){
               <p>Moreover, the ability to stick the case to a wall can be particularly useful in communal spaces like schools, offices, or restaurants, making the AuviQ readily available to multiple individuals, including those who might not carry one.</p>
             </div>
 
-            <img src={stockimage2}></img>
+            <div className='imgSection'>
+              <img src={stockimage2}></img>
+            </div>
 
             <CaseBuyButton></CaseBuyButton> 
 
