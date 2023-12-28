@@ -24,8 +24,9 @@ function BuyNow(){
             <img src={stockimage2}></img>
           </div>
           
-
-          <ClipBuyButton></ClipBuyButton>
+          <div className='buyButton'>
+            <ClipBuyButton></ClipBuyButton>
+          </div>
 
         </div>
 
@@ -43,8 +44,9 @@ function BuyNow(){
               <img src={stockimage2}></img>
             </div>
 
-            <CaseBuyButton></CaseBuyButton> 
-
+            <div className='buyButton'>
+              <CaseBuyButton></CaseBuyButton> 
+            </div>
         </div>
         
       </div>
