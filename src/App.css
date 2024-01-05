@@ -116,22 +116,32 @@ body {
   display: flex;
   flex-direction: column;
   
+  
+
 }
 
 .product-display .product img{
-  width: 100%;
-  height: 350px;
+  
+  height: 500px;
   border-radius: 10px;
 }
 
+
+.product .textAbove{
+  color: white;
+}
+
+/*Keep in case I want to put text on top of image*/
+/*
 .product .textOverlay {
   position:inherit;
   transform: translateY(-350px);
-  left: 50%; /* Adjust as needed */
-  color: white; /* or any color */
-  font-size: 30px; /* Adjust as needed */
-  /* Add more styling as required */
+  left: 50%; /* Adjust as needed 
+  color: white; /* or any color 
+  font-size: 30px; /* Adjust as needed 
+  /* Add more styling as required 
 }
+*/
 
 /* Description */
 .description {
@@ -215,11 +225,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 5%;
+  
 }
 
 .singleItems .buySection img{
-  width: 50%;
+  width: 100%;
 }
 
 .singleItems .buySection .buyButton{
@@ -279,7 +289,7 @@ body {
   .product-display .product {
       width: 100%;
       margin-bottom: 20px;
-      border-radius: 5px;;
+      border-radius: 5px;
   }
 }
 

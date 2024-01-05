@@ -4,6 +4,9 @@ import ClipBuyButton from '../components/ClipBuyButton';
 import CaseBuyButton from '../components/CaseBuyButton';
 import ComboBuyButton from '../components/ComboBuyButton';
 import stockimage2 from '../images/stockimage2.jpg';
+import caseImg from '../images/noBGImages/IMG_9363.png';
+import clipImg from '../images/noBGImages/IMG_9355.png';
+
 
 function BuyNow(){
   return (
@@ -21,7 +24,7 @@ function BuyNow(){
           </div>
           
           <div className='imgSection'>
-            <img src={stockimage2}></img>
+            <img src={clipImg}></img>
           </div>
           
           <div className='buyButton'>
@@ -41,7 +44,7 @@ function BuyNow(){
             </div>
 
             <div className='imgSection'>
-              <img src={stockimage2}></img>
+              <img src={caseImg}></img>
             </div>
 
             <div className='buyButton'>
