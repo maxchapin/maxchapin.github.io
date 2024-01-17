@@ -11,7 +11,7 @@ function Header() {
         </Link>
 
         <Link to='./' className='logo'>
-          <span className='logo'>EpiQCase</span>
+          <Button className='logo'>EpiQCase</Button>
         </Link>
 
         <Link to='/Purchase' >

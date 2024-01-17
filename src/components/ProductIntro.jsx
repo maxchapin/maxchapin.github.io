@@ -7,7 +7,7 @@ function ProductIntro() {
         <div className="intro">
             <div className='introText'>
                 <p>Introducing</p><h1>EpiQCase</h1>
-                <p>The product built to suit your lifestyle {"\n"} 
+                <p className='slogan'>The product built to suit your lifestyle {"\n"} 
                 and your allergies.</p>
             </div>
             {/*<ImageCycler/> */}
