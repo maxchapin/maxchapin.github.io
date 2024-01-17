@@ -55,6 +55,7 @@ body {
   color: black;
   text-align: center;
   width: 100%;
+  text-transform: none;
 }
 
 .navbar .buy-now {
@@ -286,12 +287,12 @@ body {
 }
 
 /* Responsive for mobile devices */
-@media (max-width: 768px) {
+@media (max-width: 769px) {
 
 /* Navbar */
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   width: 100%;
   margin-left: 0%;
@@ -306,6 +307,7 @@ body {
   margin-left: 0px;
   position: absolute;
   top: 20px;
+  left: 5%;
   z-index: 1000;
   padding: 0;
   
@@ -328,6 +330,7 @@ body {
   margin-left: 0px;
   position: absolute;
   top: 10px;
+  right: 3%;
   z-index: 1000;
   padding: 10px;
 }
@@ -347,6 +350,13 @@ body {
     width: 80%;
   }
 
+
+  .intro h1{
+    font-size:50pt;
+    text-align: left;
+    margin: 0;
+  }
+
   .intro .introText .slogan{
     font-size: 16pt;
   }
@@ -356,6 +366,42 @@ body {
       margin-bottom: 20px;
       border-radius: 5px;
   }
+
+  /* Product Display */
+.product-display {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 100px;
+  justify-content: space-evenly;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.product-display .product {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  
+  
+
+}
+
+.product-display .product img{
+  
+  height: 500px;
+  border-radius: 10px;
+}
+
+
+.product .textAbove{
+  color: white;
+  margin: 0;
+}
+
+.description{
+  font-size: 18pt;
+}
 
   .about {
     display: flex;
