@@ -1,7 +1,6 @@
 {
   "name": "casecaddy",
   "version": "0.1.0",
-  "homepage": "https://maxchapin.github.io/maxchapin.github.io",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
