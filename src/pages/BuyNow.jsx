@@ -26,6 +26,11 @@ function BuyNow(){
           <div className='imgSection'>
             <img src={clipImg}></img>
           </div>
+
+          <div>
+              <p>Material: PLA Plastic</p>
+              <p>Dimensions: W: 2.5in x L: 1.0in x H: 1.8in </p> 
+          </div>
           
           <div className='buyButton'>
             <ClipBuyButton></ClipBuyButton>
@@ -46,6 +51,11 @@ function BuyNow(){
             <div className='imgSection'>
               <img src={caseImg}></img>
             </div>
+
+            <div>
+              <p>Material: PLA Plastic</p>
+              <p>Dimensions: W: 2.5in x L: 0.8in x H: 3.5in </p> 
+          </div>
 
             <div className='buyButton'>
               <CaseBuyButton></CaseBuyButton> 
