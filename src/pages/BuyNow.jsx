@@ -6,6 +6,8 @@ import ComboBuyButton from '../components/ComboBuyButton';
 import stockimage2 from '../images/stockimage2.jpg';
 import caseImg from '../images/noBGImages/IMG_9363.png';
 import clipImg from '../images/noBGImages/IMG_9355.png';
+import caseBack from '../images/noBGImages/caseBack-removebg-preview.png';
+import clipFront from '../images/noBGImages/clipFront.png';
 
 
 function BuyNow(){
@@ -23,9 +25,14 @@ function BuyNow(){
             </p>
           </div>
           
+          <div className='imgSection2'>
+            <img src={clipFront}></img>
+          </div>
+
           <div className='imgSection'>
             <img src={clipImg}></img>
           </div>
+
 
           <div>
               <p>Material: PLA Plastic</p>
@@ -51,6 +58,11 @@ function BuyNow(){
             <div className='imgSection'>
               <img src={caseImg}></img>
             </div>
+
+            
+          <div className='imgSection2'>
+            <img src={caseBack}></img>
+          </div>
 
             <div>
               <p>Material: PLA Plastic</p>

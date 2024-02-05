@@ -2,7 +2,7 @@ import React from 'react';
 import clipImage from '../images/productPic.png';
 import stockimage3 from '../images/stockimage3.jpg';
 import stockimage4 from '../images/stockimage4.jpg';
-import clipImg from '../images/noBGImages/IMG_9365 - Copy.png';
+import clipImg from '../images/noBGImages/clipFront.png';
 import caseImg from '../images/noBGImages/IMG_9350.png'
 
 function ProductImages() {

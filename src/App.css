@@ -192,7 +192,7 @@ body {
 }
 
 .about img{
-  width: 40%;
+  width: 30%;
 
 }
 
@@ -202,6 +202,7 @@ body {
   flex-wrap: wrap;
   text-align: center;
   justify-content: center;
+  align-items: end;
   gap: 5%;
   
 }
@@ -223,7 +224,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height:50%;
+  height:40%;
 }
 
 .singleItems .buySection .imgSection{
@@ -233,6 +234,10 @@ body {
   align-items: center;
   justify-content: center;
   
+}
+
+.singleItems .buySection .imgSection2{
+  width: 65%;
 }
 
 .singleItems .buySection img{
@@ -248,7 +253,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 8%;
+  margin-top: 4%;
 }
 
 .footer{
