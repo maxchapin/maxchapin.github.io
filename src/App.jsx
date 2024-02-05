@@ -11,21 +11,26 @@ import BuyNow from './pages/BuyNow';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import PrivacyPolicy from './components/PrivacyPolicy';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
     return (
-      <Router>  
-          <Header/>
-          <Routes>       
-              <Route exact path="/" Component={Home} />
-              <Route path="/Home" Component={Home} />
-              <Route path="/About" Component={About} />
-              <Route path="/Purchase" Component={BuyNow} />
-              <Route path="/PrivacyPolicy" Component={PrivacyPolicy} />
-              {/* Add more routes if you have other pages */}
-          </Routes>
-          <Footer></Footer>
-      </Router>
+      <div>
+        <Router>  
+            <Header/>
+            <Routes>       
+                <Route exact path="/" Component={Home} />
+                <Route path="/Home" Component={Home} />
+                <Route path="/About" Component={About} />
+                <Route path="/Purchase" Component={BuyNow} />
+                <Route path="/PrivacyPolicy" Component={PrivacyPolicy} />
+                {/* Add more routes if you have other pages */}
+            </Routes>
+            <Footer></Footer>
+        </Router>
+        <Analytics/>
+      </div>
+      
     );
   }
   
