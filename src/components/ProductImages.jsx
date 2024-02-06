@@ -15,7 +15,7 @@ function ProductImages() {
             </div>
             <div className="product">
                 <h1 className='textAbove'>The Case</h1>
-                <img className="clipImage" src={caseImg}></img>
+                <img className="" src={caseImg}></img>
                 
             </div>
         </div>
